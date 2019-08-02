@@ -26,4 +26,10 @@ Imagine the difficulty of writing all the test cases to ensure that all various 
 
 1. Refactor [Car](./exercises/Car.java) class to use "Builder design pattern".
 2. Discuss about [version 2](./exercises/CarV2.java) of the Car class. What are the advantages and disadvantages.
-3. Discuss security issue by throwing exception in constructor
+
+
+
+
+
+
+
