@@ -30,6 +30,17 @@ Imagine the difficulty of writing all the test cases to ensure that all various 
 
 
 
+CarV2 Builder pattern
+There is a lot of misunderstanding about JavaBeans spec.
+The main reason for it's existence is the unified Java "component" model. 
+It's a way to interact programatically with a Java Object using Reflection. 
+The API itself is named JavaBeans Introspection. 
+
+Introspection API can be used to manipulate GUI elements in an unified manner. 
+Your component exposes it's properties as a pairs of getters and setters so that they could be discovered and manipulated at run-time on a GUI builder's property sheet.
+So, mixing fluent APIs and JavaBeans Spec is a no-go. That's two completely unrelated concepts and can disrupt each other. JavaBeans Introspection might not work when method signature differs (return type).
+
+
 
 
 
