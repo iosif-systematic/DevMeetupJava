@@ -1,5 +1,6 @@
 package creational.builder.exercises;
 
+import creational.builder.exercises.workspace.CarBuilder;
 import utils.ObjectPrintUtil;
 
 public class Main {

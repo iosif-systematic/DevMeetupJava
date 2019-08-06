@@ -1,4 +1,6 @@
-package creational.builder.exercises;
+package creational.builder.exercises.workspace;
+
+import creational.builder.exercises.Car;
 
 public class CarBuilder {
     private String name;
